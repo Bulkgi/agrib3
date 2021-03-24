@@ -13,28 +13,28 @@
   <div class = "nav">
     <ul class = 'lists-left'>
       <li>
-        <%= link_to '出品される方はこちらから', new_farmer_user_session_path, class: "order-list"%>
+        <%#= link_to '出品される方はこちらから', new_farmer_user_session_path, class: "order-list"%>
       </li>
       <li>
-        <%= link_to '出品される方の新規登録はこちらから',  new_farmer_user_registration_path, class:"new-order-list"%>
+        <%#= link_to '出品される方の新規登録はこちらから',  new_farmer_user_registration_path, class:"new-order-list"%>
     </ul>
   <%# ログインしていなければ新規登録か、ログインボタンが表示され、そうでなければログアウトボタンとユーザーの名前が出てくる%> 
     <ul class = 'lists-right'>
-      <% if user_signed_in? || farmer_user_signed_in? %>
+      <%# if user_signed_in? || farmer_user_signed_in? %>
         <li>
           <%#= link_to "#", class:"user-nickname"%>
         </li>
         <li>
           <%#= link_to 'ログアウト', "#", class:"logout"%>
         </li>
-      <% else %>
+      <%# else %>
         <li>
-          <%= link_to 'ログイン', new_user_session_path, class:"login"%>
+          <%#= link_to 'ログイン', new_user_session_path, class:"login"%>
         </li>
         <li>
-          <%= link_to '新規登録', new_user_registration_path, class: "sign-up"%>
+          <%#= link_to '新規登録', new_user_registration_path, class: "sign-up"%>
         </li>
-      <% end %>
+      <%# end %>
     </ul>
     <%# ログインしていなければ新規登録か、ログインボタンが表示され、そうでなければログアウトボタンとユーザーの名前が出てくる%> 
   </div>

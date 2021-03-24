@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+}
+
+.main {
+  background: #f8f8f8;
+}
+
+
+.title-contents{
+  position: relative;
+
+}
+
+.title-image {
+  width: 100vw;
+  height: 500px;
+  object-fit: cover
+}
+
+.service-title{
+  position: absolute;
+  top: 100px;
+  left: 140px;
+  color: #f8f8f8;
+  font-size: 70px;
+  text-shadow: 2px 5px 5px black;
+}
+
+.service-explain{
+  position: absolute;
+  top: 180px;
+  left: 140px;
+  color: #f8f8f8;
+  font-size: 50px;
+  text-shadow: 2px 5px 5px black;
+}
+
